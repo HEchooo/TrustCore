@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'TrustCore'
-  s.version      = '0.3.0'
+  s.version      = '0.3.2'
   s.summary      = 'Core Ethereum data structures and algorithms.'
   s.homepage     = 'https://github.com/HEchooo/TrustCore'
   s.license      = 'MIT'
