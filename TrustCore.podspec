@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = 'TrustCore'
   s.version      = '0.3.0'
   s.summary      = 'Core Ethereum data structures and algorithms.'
-  s.homepage     = 'https://github.com/TrustWallet/trust-core'
+  s.homepage     = 'https://github.com/HEchooo/TrustCore'
   s.license      = 'MIT'
   s.authors      = { 'Alejandro Isaza' => 'al@isaza.ca' }
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.12'
   s.swift_version = '5.0'
 
-  s.source       = { git: 'https://github.com/TrustWallet/trust-core.git', tag: s.version }
+  s.source       = { git: 'https://github.com/HEchooo/TrustCore.git', tag: s.version }
   s.source_files = 'Sources/**/*.{swift,h,m}'
   s.public_header_files = 'Sources/TrustCore.h', 'Sources/Crypto.h'
 
